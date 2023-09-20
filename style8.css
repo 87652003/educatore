@@ -1,0 +1,749 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 200px;
+}
+
+.nav-set {
+    padding: 0 0 0 31rem;
+    font-weight: 500;
+    margin-left: auto;
+}
+
+.nav-l {
+    margin: 0 15px;
+}
+
+.nav-l:hover {
+    color: #2091ee !important;
+}
+
+.top-header {
+    display: flex;
+    padding: 10px 0px 0 0px;
+    color: white;
+}
+
+.tophed {
+    background-color: #2091ee;
+}
+
+.banner {
+    background-image: url(https://voices.uchicago.edu/trevorpricelab/files/2016/12/uchicago9-207k7w1.jpg);
+    height: 700px;
+    background-position: center;
+
+}
+
+.bnr-txt {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 244px 100px;
+}
+
+.bnr-txt h2 {
+    font-weight: bold;
+}
+
+.bnr-btn1 {
+    text-decoration: blink;
+    padding: 12px 25px 12px 25px;
+    background: #2091ee;
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.bnr-btn1:hover {
+    background-color: #00aacc;
+    color: #000;
+    box-shadow: .5px;
+}
+
+.bnr-btn2 {
+    text-decoration: blink;
+    padding: 12px 25px 12px 25px;
+    background: #fff;
+    color: #000;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.bnr-btn2:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.card-hed {
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.crd-pera {
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.size {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: xx-large;
+    padding-top: 40px;
+    filter: invert(1);
+}
+
+.cnter {
+    text-align: center;
+    color: white;
+}
+
+.cards {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+}
+
+.crd-dtl {
+    text-align: center;
+    background: #e5e9e97d;
+}
+
+.sec-cardb {
+    border-radius: 50px !important;
+    margin: 30px;
+}
+
+.course-sec {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 60px;
+
+}
+
+.course-sec span {
+    color: #00aacc;
+}
+
+.banner-inquiry {
+    background-image: url('http://www.theuniversitygallerynewcastle.com.au/uploads/2/3/9/6/23967429/friends-of-uon-student-art-prize-2016-install-4_orig.jpg');
+    height: 591px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.form {
+    color: white;
+    padding: 120px 0px;
+}
+
+.form span {
+    width: 70px;
+    height: 3px;
+    background: #00aacc;
+    ;
+    display: inline-block;
+}
+
+.form strong {
+    color: #00aacc;
+}
+
+.form p {
+    margin-top: 15px;
+}
+
+.form-head {
+    font-size: xx-large;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.form-control1 {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* border-radius: .25rem; */
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#row {
+    margin-top: 25px;
+}
+
+.btn-sum {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.form-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 25px 10px 25px;
+    background-color: #00aacc;
+}
+
+.form-btn:hover {
+    background-color: #2091ee;
+    color: black;
+}
+
+.edu-pripration {
+    color: white;
+    padding: 120px 0px;
+}
+
+.edu-pripration span {
+    width: 70px;
+    height: 3px;
+    background: #00aacc;
+    ;
+    display: inline-block;
+}
+
+.edu-pripration strong {
+    color: #000;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50% !important;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the buttons */
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ddd;
+}
+
+.btn.active {
+    background-color: #666;
+    color: white;
+}
+
+.favicon {
+    width: 35px;
+    background: white;
+    padding: 6px 7px 6px 7px;
+    border-radius: 17px;
+    float: left;
+    margin-right: 10px;
+}
+
+.grid-h {
+    font-size: large;
+}
+
+.form-bg1 {
+    background: #7f90a3a6;
+}
+
+.typ-bg {
+    background: #ff4c4ccf;
+}
+
+.banner-inquiry::before {
+    content: "";
+    position: absolute;
+    top: 112.9REM;
+    left: 0;
+    width: 96px;
+    height: 590px;
+    background-color: #7f90a3a6;
+    /* background-image: linear-gradient(120deg, #eaee44, #33d0ff); */
+    /* background-color: #333; */
+    opacity: 1.7;
+}
+
+.banner-inquiry::after {
+    content: "";
+    position: absolute;
+    top: 112.9rem;
+    right: 0;
+    width: 95px;
+    height: 590px;
+    background-color: #ff4c4ccf;
+    /* background-image: linear-gradient(120deg, #eaee44, #33d0ff); */
+    /* background-color: #333; */
+    opacity: 1.7;
+}
+
+.event-head {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 65px;
+
+}
+
+.event-head h1 {
+    font-size: revert;
+    font-weight: bold;
+}
+
+.event-head span {
+    color: #00aacc;
+
+}
+
+.campus-img {
+    width: 300px;
+    margin-left: 15px;
+    height: -webkit-fill-available;
+}
+
+.event-h2 {
+    font-size: large;
+    margin-left: 0;
+}
+
+.event-pera {
+    margin-left: 0;
+}
+
+#center-col {
+    background: #ebebeb87;
+    padding: 60px;
+}
+
+#left-icon {
+    background: #4082e4;
+    padding: 20px;
+    color: white;
+}
+
+.calandor {
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    background: #4082e4;
+    margin-left: 15px;
+    padding: 7px 10px 7px 10px;
+    text-align: center;
+}
+
+.facility-banner {
+    background-image: url(https://www.ox.ac.uk/sites/files/oxford/uniq5.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 86px;
+    background-attachment: fixed;
+}
+
+.fclt-icon {
+    width: 20px;
+    filter: invert(1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cercul {
+    padding: 100px;
+    background: #3c403f85;
+}
+
+.cercul {
+    text-align: center;
+    color: white;
+    font-family: 'Merriweather', serif;
+    border: 1px solid #4082e4;
+    border-radius: 113px;
+    padding: 50px 0px 50px 0;
+}
+
+.cercul:hover {
+    background-color: #2091ee;
+}
+
+.col-lg-3 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .col-lg-3:hover .image {
+    /* opacity: 0; */
+  }
+  
+  .col-lg-3:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #0078d485;
+    color: white;
+    font-size: 20px;
+    height: 458px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    padding: 176px 0;
+    cursor: pointer;
+  }
+  #container{
+    height: 63.5vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #d64240d9;
+  }
+  .testimonial-bg{
+    background-image: url('https://www.mentorszone.in/cjobadmin/images/mzindex/about/1532425755_1532164341_student2.jpg');
+    /* height: 472px; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 100px;
+    background-attachment: fixed;
+  }
+
+  .testimonial{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    padding: 50px 0;
+    /* background-color: white; */
+    row-gap: 30px;
+    overflow: hidden;
+    
+  }
+  .testimonial .img{
+    height: 170px;
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+
+  }
+  .testimonial .slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+  .slide p{
+    text-align: center;
+    padding: 0 100px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+  }
+  .slide .quot-icon{
+    font-size: 30px;
+    color: #4070f4;
+  }
+  .slide .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .details .name{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .details .job{
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+  }
+  /* swiper-btn */
+  .nav-btn{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    transform: translateY(30px);
+   
+  }
+  .nav-btn::after,
+  .nav-btn::before{
+    font-size: 20px;
+  }
+
+  .testimonial-head{
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+  }
+  .testimonial-head h1{
+    font-size: revert;
+  }
+  .testimonial-head span{
+    color: #000;
+  }
+  .admin{
+    color: #2091ee;
+  }
+  .may-25{
+    position: absolute;
+    background: #4070f4;
+    padding: 5px 15px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 11px;
+    color: white;
+    font-weight: bold;
+  }
+  .footer-top{
+    background: #4082e4;
+    margin-top: 50px;
+  }
+.footer-toptxt{
+    text-align: center;
+    color: white;
+    font-family: inherit;
+    padding: 25px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .footer {
+    background-color: black;
+    color: #fefefe;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .footer .heading {
+    color: #fefefe;
+    max-width: 1010px;
+    width: 90%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .footer .content {
+    display: flex;
+    justify-content: space-evenly;
+   
+  }
+  
+  .footer .content p {
+    margin-bottom: 1.3rem;
+  }
+  
+  .footer .content a {
+    text-decoration: none;
+    color: #fefefe;
+  }
+  
+  .footer .content a:hover {
+    border-bottom: 1px solid #971717;
+  }
+  
+  .footer .content h4 {
+    margin-bottom: 1.3rem;
+    font-size: 19px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  footer hr {
+    margin: 2rem 0;
+  }
+  .top-header a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  @media (max-width: 767px) {
+    .footer .content {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+  
+    .footer {
+      position: unset;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .footer .content,
+    .footer {
+      font-size: 14px;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .footer {
+      position: unset;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    .set-cors {
+        margin-left: 40px;
+    }
+
+    .banner-inquiry {
+        background-image: url('http://www.theuniversitygallerynewcastle.com.au/uploads/2/3/9/6/23967429/friends-of-uon-student-art-prize-2016-install-4_orig.jpg');
+        height: 700px;
+        background-position: center;
+    }
+
+    .banner-inquiry::before {
+        content: "";
+        position: absolute !important;
+        top: 114rem !important;
+        left: 0;
+        width: 100px !important;
+        height: 619px !important;
+
+        /* background-image: linear-gradient(120deg, #eaee44, #33d0ff); */
+        /* background-color: #333; */
+        opacity: 0;
+    }
+
+    .banner-inquiry::after {
+        content: "";
+        position: absolute;
+        top: 114rem;
+        right: 0;
+        width: 100px;
+        height: 618px;
+        background-color: #ff4c4ccf;
+        /* background-image: linear-gradient(120deg, #eaee44, #33d0ff); */
+        /* background-color: #333; */
+        opacity: 0;
+    }
+
+    #event {
+        margin-top: 573px;
+    }
+
+    .campus-img {
+        width: 465px !important;
+        margin-left: 0 !important;
+
+    }
+    .text {
+        background-color: #0078d485;
+        color: white;
+        font-size: 20px !important;
+        height: 728px !important;
+        width: 478px !important;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        padding: 275px 0 !important;
+        cursor: pointer;
+    }
+    .testimonial-bg {
+      background-image: url(https://www.mentorszone.in/cjobadmin/images/mzindex/about/1532425755_1532164341_student2.jpg);
+      height: 88vh !important;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: 100px;
+      background-attachment: fixed !important;
+      background-size: auto;
+  }
+  #container {
+    height: 88.5vh !important;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #d64240d9;
+    
+}
+.facility-banner {
+  background-image: url(https://www.ox.ac.uk/sites/files/oxford/uniq5.jpg);
+  height: 74vh !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 86px;
+  width: 100%;
+  background-attachment: fixed !important;
+  background-size: auto;
+}
+#cercul {
+  padding: 100px;
+  background: #3c403f85;
+  height: inherit !important;
+  
+}
+.banner-inquiry {
+  background-image: url(http://www.theuniversitygallerynewcastle.com.au/uploads/2/3/9/6/23967429/friends-of-uon-student-art-prize-2016-install-4_orig.jpg);
+  height: 700px;
+  background-position: center;
+  height: 84vh !important;
+  background-size: auto !important;
+}
+}
